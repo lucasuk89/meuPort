@@ -33,7 +33,15 @@ const Contact = () => {
 
 
         <div className="contato">
-
+            <div class="anim">
+                <div class="paperplane">
+                    <svg width="300" height="158" viewBox="0 0 462 158" xmlns="http://www.w3.org/2000/svg">
+                        <polygon fill="#CE7A9A" class="morph" points="460.677372 139.06334350463445 110.07012093230199 30.932525408776254 115.3182068511611 134.08288707426985"></polygon>
+                        <polygon fill="#F3F2F4" class="morph2" points="110.07012093230199 30.932525408776254 175.39111200753828 0 460.677372 139.06334350463445"></polygon>
+                        <polygon fill="#F3F2F4" class="morph3" points="76.57776841722396 46.597598954356734 460.677372 139.06334350463445 0 82.28570973254311"></polygon>
+                    </svg>
+                </div>
+            </div>
             <div className="contato-bg"></div>
             <div className="c-wrapper">
 

@@ -1,6 +1,6 @@
 import "./About.css"
 import aviao from "../../img/aviao.jpeg"
-import award from "../../img/award.png"
+import gelo from "../../img/gelo.png"
 
 const About = () => {
     return (
@@ -44,7 +44,7 @@ const About = () => {
                 </p>
 
                 <div className="a-award">
-                    <img src={award} alt="" className="a-award-img" />
+                    <img src={gelo} alt="" className="a-award-img" />
                     <div className="a-award-texts">
                         <h4 className="a-award-title"> Hobbies</h4>
                         <p className="a-award-desc">I am passionate about travel, sports, games and going out with my family.

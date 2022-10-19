@@ -1,0 +1,97 @@
+.icons {
+    box-sizing: border-box;
+    height: 40vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.icon {
+    position: relative;
+    width: 80%;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+
+.icon:hover {
+    background-color: #e60073;
+    box-shadow: 0 0 20px #e60073;
+}
+
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #25d366;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366;
+}
+
+.icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow: 0 0 20px #1da1f2;
+}
+
+.icon i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
+
+
+.mainIcon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.rodape {
+    height: 100px;
+    width: 100%;
+}
+
+.builtByLucas {
+    font-family: 'Handlee', cursive;
+    font-size: 22px;
+    text-align: center;
+    margin: 25px 0px -90px -260px;
+}
+
+@media screen and (max-width:640px) {
+    .rodape {
+        width: 100%;
+        flex-direction: center;
+
+    }
+
+    .mainIcon {
+        align-items: center;
+        width: calc((80% / 3) - 15rem);
+
+    }
+
+    .icons {
+        background-color: #000;
+        justify-content: left;
+    }
+
+}

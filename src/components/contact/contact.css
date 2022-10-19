@@ -81,41 +81,20 @@ button {
 
 }
 
+/*------------------*/
 
+.paperplane {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    animation: move 12s infinite;
+    margin-left: 260px;
 
-/*-------------------*/
-
-@keyframes paperplane-anim {
-    0% {
-        transform: rotate(50deg) translate(-500px, -250px);
-        opacity: 0
-    }
-
-    30% {
-        transform: rotate(50deg) translate(-500px, -250px);
-        opacity: 0
-    }
-
-    100% {
-        transform: rotate(0) translate(0, 0);
-        opacity: 100
-    }
-}
-
-.content .intro .anim .paperplane svg {
-    margin-top: 0
 }
 
 
 
-
-
-
-
-
-
-
-
+/*------------------*/
 
 
 @media screen and (max-width:480px) {
@@ -151,5 +130,16 @@ button {
 
     button {
         margin-top: 10px;
+    }
+
+    .paperplane {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .paperplane {
+        display: none;
     }
 }

@@ -25,5 +25,10 @@
     background-color: #999;
     position: absolute;
     cursor: pointer;
+}
 
+@media screen and (max-width:640px) {
+    .toggle_main {
+        display: none;
+    }
 }
