@@ -5,6 +5,7 @@ import address from "../../img/address.png";
 import { useRef, useState, useContext } from "react";
 import emailjs from 'emailjs-com';
 import { ThemeContext } from "../../context";
+import "../../img/seta.png"
 
 const Contact = () => {
 
@@ -87,9 +88,24 @@ const Contact = () => {
                         {done && "Thank you for your email"}
                     </form>
 
+
+
                 </div>
+
+            </div>
+            <div className="botao">
+                <div class="flex justify-center py-12">
+                    <a href="/">
+                        <div class="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="text-[#ae3cfa]" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7">
+                                </path>
+                            </svg>
+                        </div>
+                    </a></div>
             </div>
         </div>
+
     )
 }
 

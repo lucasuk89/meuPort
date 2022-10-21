@@ -76,22 +76,62 @@ svg circle {
     margin: 25px 0px -90px -260px;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:670px) {
     .rodape {
-        width: 100%;
-        flex-direction: center;
-
+        justify-content: right;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .mainIcon {
-        align-items: center;
         width: calc((80% / 3) - 15rem);
+    }
+
+    .icons {
+        background-color: #000;
+
+        height: 100%;
+        padding-left: 300px;
+    }
+
+    .iconPosition {
+        position: relative
+    }
+
+    .builtByLucas {
+        color: #a282acfb;
+        padding-left: 1px;
+        margin-top: -40px;
+        font-family: 'Handlee', cursive;
+    }
+
+    .flex {
+        justify-content: center;
+        height: 20px;
+        padding-top: -200px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .mainIcon {
+        width: 100%;
+        cursor: pointer;
 
     }
 
     .icons {
         background-color: #000;
-        justify-content: left;
+        height: 100%;
+        width: 100%;
+        height: 250px;
     }
 
+    .builtByLucas {
+        color: #a282acfb;
+        padding-left: 300px;
+        margin-top: -40px;
+        font-family: 'Handlee', cursive;
+    }
 }

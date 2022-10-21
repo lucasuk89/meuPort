@@ -74,13 +74,14 @@
     margin-bottom: 10px;
 }
 
+
 @media screen and (max-width:640px) {
     .a {
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
     }
-
+§§
     .a-left {
         width: 100%;
         justify-items: center;

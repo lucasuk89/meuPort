@@ -96,8 +96,57 @@ button {
 
 /*------------------*/
 
+.flex {
+    display: flex
+}
 
-@media screen and (max-width:480px) {
+.justify-center {
+    justify-content: center
+}
+
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color)
+}
+
+.shadow-md {
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.shadow-gray-400 {
+    --tw-shadow-color: #9ca3af;
+    --tw-shadow: var(--tw-shadow-colored)
+}
+
+.p-4 {
+    padding: 1rem
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+
+
+.ease-in {
+    transition-timing-function: cubic-bezier(.4, 0, 1, 1)
+}
+
+.duration-300 {
+    transition-duration: .3s
+}
+
+
+@media screen and (max-width:667px) {
     .c-wrapper {
         flex-direction: column;
         padding: 0px 50px;
@@ -135,6 +184,13 @@ button {
     .paperplane {
         display: none;
     }
+
+    .py-12 {
+        width: calc((80% / 3) + 1rem);
+        position: relative;
+
+    }
+
 }
 
 
