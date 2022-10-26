@@ -81,8 +81,13 @@
         text-align: center;
         margin-top: 50px;
     }
-§§
-    .a-left {
+
+
+    .a-award-title {
+        display: none;
+    }
+
+    §§ .a-left {
         width: 100%;
         justify-items: center;
     }
@@ -93,6 +98,9 @@
         margin-left: 20px;
     }
 
+    .a-award-desc {
+        display: none;
+    }
 
 
     .a-card.bg,
@@ -110,6 +118,14 @@
 @media screen and (max-width:768px) {
     .i {
         flex-direction: column;
+    }
+
+    .a-award-desc {
+        display: none;
+    }
+
+    .a-award-title {
+        display: none;
     }
 
     .i-intro {
@@ -145,6 +161,14 @@
 
     .contato-desc {
         margin-left: -50px;
+    }
+
+    .a-award-desc {
+        display: none;
+    }
+
+    .a-award-title {
+        display: none;
     }
 }
 

@@ -7,7 +7,7 @@ import Footer from "./components/Footer/footer";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
-import header from "./components/header/header";
+
 
 
 const App = () => {
@@ -21,7 +21,6 @@ const App = () => {
       }}
     >
       <Toggle />
-      <header />
       <Intro />
       <About />
       <ProductList />

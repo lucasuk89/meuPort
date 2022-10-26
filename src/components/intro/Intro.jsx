@@ -4,6 +4,34 @@ import Me2 from '../../img/me2.png'
 const Intro = () => {
     return (
         <div className="i">
+
+            <div className="navCorpo">
+                <div className="navHead">
+                    <a href="#" className="logo">Logo</a>
+                    <input type="checkbox" id="menu-bar" />
+                    <label for="menu-bar">Menu</label>
+
+
+
+                    <nav className="navbar">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About me</a>
+
+                                <ul>
+                                    <li><a href="#">More about me</a></li>
+                                    <li><a href="#">travels</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, My name is </h2>
