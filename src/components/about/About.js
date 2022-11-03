@@ -1,13 +1,12 @@
 import "./About.css"
 import aviao from "../../img/aviao.jpeg"
 import gelo from "../../img/gelo.png"
-
 const About = () => {
     return (
 
 
 
-        <div className="a">
+        <div className="a" id="aboutMe">
 
             <div className="a-left">
                 <div className="a-card-bg"></div>
@@ -21,7 +20,7 @@ const About = () => {
             </div>
 
             <div className="a-right">
-                <h1 className="a-title">About me</h1>
+                <h1 className="a-title"> <a href="aboutme"></a>About me</h1>
                 <p className="a-sub">
                     My name is Lucas, Brazilian and a Junior Developer.
                 </p>

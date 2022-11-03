@@ -34,6 +34,7 @@ const Contact = () => {
 
 
         <div className="contato">
+
             <div class="anim">
                 <div class="paperplane">
                     <svg width="300" height="158" viewBox="0 0 462 158" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +48,7 @@ const Contact = () => {
             <div className="c-wrapper">
 
                 <div className="contato-left">
-                    <h1 className="contato-title"> Let's work together</h1>
+                    <h1 className="contato-title"><a name="contact" /> Let's work together</h1>
                     <div className="contato-info">
                         <div className="contato-info-item">
                             <img

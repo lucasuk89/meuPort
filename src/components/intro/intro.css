@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 500;
 }
 
 .navCorpo .logo {
@@ -35,6 +35,8 @@
 }
 
 
+
+
 .navHead .navbar ul li a:hover {
     background-color: #333;
     color: #ffffff;
@@ -50,9 +52,8 @@
 
 .navHead .navbar ul li ul li {
     width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, .1);
-
 }
+
 
 .navHead .navbar ul li ul li ul {
     left: 200px;
@@ -238,6 +239,10 @@
         margin-left: -180px;
     }
 
+    .i-intro {
+        padding-top: 20px;
+        margin: 5px;
+    }
 }
 
 
@@ -270,12 +275,19 @@
         justify-content: center;
         text-align: center;
     }
+
+    .i-intro {}
 }
 
 @media screen and (max-width:1200px) {
     .i {
         flex-direction: column;
 
+    }
+
+    .i-name {
+        padding-left: 100px;
+        padding-top: 20px;
     }
 
     .i-desc {
