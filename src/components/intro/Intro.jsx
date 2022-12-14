@@ -7,7 +7,7 @@ const Intro = () => {
 
             <div className="navCorpo">
                 <div className="navHead">
-                    <a href="home" className="logo">Welcome</a>
+                    <a href="home" className="logo">Welcome to my portfolio</a>
                     <input type="checkbox" id="menu-bar" />
                     <label for="menu-bar">Menu</label>
 
@@ -15,13 +15,8 @@ const Intro = () => {
 
                     <nav className="navbar">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#aboutme">About me</a>
-
-                                <ul>
-                                    <li><a href="#">More about me</a></li>
-                                    <li><a href="#">travels</a></li>
-                                </ul>
+                            <li><a href="#" >Home</a></li>
+                            <li><a href="#">About me</a>
 
                             </li>
                             <li><a href="#projects">Projects</a></li>

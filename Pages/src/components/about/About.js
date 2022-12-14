@@ -20,7 +20,7 @@ const About = () => {
             </div>
 
             <div className="a-right">
-                <h1 className="a-title"> <a href="aboutMe"></a>About me</h1>
+                <h1 className="a-title"> <a href="aboutme"></a>About me</h1>
                 <p className="a-sub">
                     My name is Lucas, Brazilian and a Junior Developer.
                 </p>
@@ -52,7 +52,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
