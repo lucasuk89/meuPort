@@ -17,8 +17,8 @@ export const products = [
     },
     {
         id: 4,
-        img: "https://i.ibb.co/mvRKt4N/Captura-de-Tela-2022-10-11-s-11-53-30.png",
-        link: "",
+        img: "https://i.ibb.co/zXytHyj/meuport-lucasuk89-vercel-app-i-Pad-Mini.png",
+        link: "https://meuport-bwnjl21ur-lucasuk89.vercel.app",
     },
     {
         id: 5,
